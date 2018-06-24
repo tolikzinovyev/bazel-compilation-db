@@ -1,0 +1,13 @@
+package(default_visibility = ["//visibility:public"])
+
+licenses(["notice"])  # Apache 2.0
+
+proto_library(
+    name = "extra_actions_base_proto",
+    srcs = ["src/main/protobuf/extra_actions_base.proto"],
+)
+
+cc_proto_library(
+    name = "extra_actions_base_cc_proto",
+    deps = [":extra_actions_base_proto"],
+)
