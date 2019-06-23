@@ -9,7 +9,7 @@ This is an adaptation of [Kythe][kythe]'s approach with a small patch to support
 To generate a `compile_commands.json` file in `$(bazel info execution_root)`, run `third_party/tools/generate_compilation_database.sh`.
 To use `clang-tidy`, run `third_party/tools/clang_tidy.sh`.
 
-Tested with Bazel 0.14.1, 0.20.0.
+Tested with Bazel 0.27.0.
 
 [bazel]: https://bazel.build/
 [kythe]: https://github.com/google/kythe
